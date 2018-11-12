@@ -1,0 +1,59 @@
+<!DOCTYPE >
+<html>
+<head>
+    <title>Калькулятор</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+            <div class="note">
+                <textarea class = "note_display" id="display_note" disabled></textarea>
+            </div>
+
+            <div class="calculator">
+                <form class="calculator_form">
+                    <div class=" calculator_row">
+                        <input class="calculator_display" id="display" type="text" disabled value="0">
+                    </div>
+                    <div class="calculator_row">
+                        <input value="√" class="calculator_key" id="sqrt_key" type="button">
+                        <input value="CE" class="calculator_key" id="ce_key" type="button">
+                        <input value="C" class="calculator_key" id="c_key" type="button">
+                        <input value="←" class="calculator_key" id="back_key" type="button">
+                        <input value=" ÷ " class="calculator_key op_key key" type="button">
+                    </div>
+                    <div class="calculator_row">
+                        <input value="1/x" class="calculator_key" id="sym_key" type="button">
+                        <input value="7" class="calculator_key num_key key" type="button">
+                        <input value="8" class="calculator_key num_key key" type="button">
+                        <input value="9" class="calculator_key num_key key" type="button">
+                        <input value=" × " class="calculator_key mul_key op_key key" type="button">
+                    </div>
+                    <div class="calculator_row">
+                        <input value=" % " class="calculator_key op_key key" type="button">
+                        <input value="4" class="calculator_key num_key key" type="button">
+                        <input value="5" class="calculator_key num_key key" type="button">
+                        <input value="6" class="calculator_key num_key key" type="button">
+                        <input value=" - " class="calculator_key op_key key" type="button">
+                    </div>
+                    <div class="calculator_row">
+                        <input value="±" class="calculator_key" id="inv_key" type="button">
+                        <input value="1" class="calculator_key num_key key" type="button">
+                        <input value="2" class="calculator_key num_key key" type="button">
+                        <input value="3" class="calculator_key num_key key" type="button">
+                        <input value=" + " class="calculator_key op_key key" type="button">
+                    </div>
+                    <div class="calculator_row ">
+                        <input value=" ^ " class="calculator_key op_key key" type="button">
+                        <input value="0" class="calculator_key num_key key" id="null_key" type="button">
+                        <input value="." class="calculator_key num_key key" id="dot_key" type="button">
+                        <input value="=" class="calculator_key" id="equals_key" type="button">
+                    </div>
+                </form>
+                <script src="script.js"></script>
+
+    </div>
+</div>
+</body>
+</html>
